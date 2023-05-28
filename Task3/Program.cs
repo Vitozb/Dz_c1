@@ -6,7 +6,7 @@
 
 Console.WriteLine("введите число: ");
 int a = Convert.ToInt32(Console.ReadLine()); 
- 
+ Console.WriteLine(a);
 if (a % 2 == 0)
     Console.WriteLine("четное число");
 else
